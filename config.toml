@@ -1,0 +1,66 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Shailesh's Blog"
+theme = "soho"
+
+summarylength = 20
+enableEmoji = true
+
+[params]
+author = "Shailesh Aanand"
+description = "I am a linux and open-source enthusiast who loves coding and problem solving."
+profilePicture = "images/profile.jpg"
+copyright = "Shailesh Aanand"
+customCss = ["css/custom.css"]
+
+  [[params.socialIcons]]
+  icon = "fa-linkedin"
+  title = "Linkedin"
+  url = "https://www.linkedin.com/in/shailesh-aanand/"
+
+  [[params.socialIcons]]
+  icon = "fa-github"
+  title = "GitHub"
+  url = "https://github.com/shaileshaanand/"
+
+  [[params.socialIcons]]
+  icon = "fa-telegram"
+  title = "Telegram"
+  url = "https://t.me/shaileshaanand"
+
+  [[params.socialIcons]]
+  icon = "fa-twitter"
+  title = "Twitter"
+  url = "https://twitter.com/shailesh_aanand"
+
+
+[menu]
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 100
+  identifier = "posts"
+  url = "/posts/"
+
+  [[menu.main]]
+  name = "Tags"
+  weight = 100
+  identifier = "tags"
+  url = "/tags/"
+
+  [[menu.main]]
+  name = "Series"
+  weight = 100
+  identifier = "series"
+  url = "/series/"
+
+  [[menu.main]]
+  name = "About"
+  identifier = "about"
+  weight = 300
+  url = "/about/"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
